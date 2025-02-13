@@ -2,6 +2,7 @@ let index = 0;
 
 // Key interaction
 document.addEventListener('keydown', init, { once: true });
+document.addEventListener('touchstart', init, { once: true });
 
 // Buttons
 const no_btn = document.getElementById('no-button');
