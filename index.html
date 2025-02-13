@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Just a sunflower</title>
+
+		<!-- Stylesheet -->
+		<link href="./assets/halfmoon/halfmoon.min.css" rel="stylesheet">
+		<link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+		<link href="./assets/main/css/default.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="overlay" id="initial-page">
+			<h1>Press any key to continue</h1>
+		</div>
+
+		<div class="redirection" id="redirect-page">
+			<h1 id="redirect-message"></h1>
+			<h3>Redirecting you to me. If it doesn't work, <a class="text-decoration-none" href="https://www.instagram.com/direct/t/104229550972163/">click here</a>.</h3>
+		</div>
+
+		<audio id="background-music" loop>
+			<source src="./assets/main/audio/loop.mp3" type="audio/mpeg">
+			Your browser does not support audio.
+		</audio>
+
+		<audio id="move-sound">
+			<source src="./assets/main/audio/bounce.mp3" type="audio/mpeg">
+			Your browser does not support audio.
+		</audio>
+
+		<div class="content" id="main-page">
+			<img src="./assets/main/img/sunflower.png" alt="Placeholder Image" class="img-fluid mb-3 w-75 float-image">
+			<div>
+				<button class="btn btn-success btn-lg me-2" id="yes-button">
+					<i class="fa-sharp fa-thin fa-face-smile me-2"></i>Yes
+				</button>
+				<button id="no-button" class="btn btn-danger btn-lg move-button">No</button>
+			</div>
+		</div>
+
+		<script src="./assets/main/js/default.js"></script>
+	</body>
+</html>
